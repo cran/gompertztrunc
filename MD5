@@ -1,8 +1,8 @@
-c5f8cdef7f12f3f1632702b63461b092 *DESCRIPTION
+c3c70751b69393f0b396855da21e4e1c *DESCRIPTION
 15940007069cb3ea68c57475fef40e0f *NAMESPACE
-f6c6c0a39ecb7aee0079df15e20819dd *NEWS.md
+a53a0c87145555d9003e7d5b1bd96400 *NEWS.md
 17b52704cac24a3cc06c1aa2cbeaca8b *R/bunmd_demo.R
-82438eb1e16cd1cc4b30bb1ebdf18db8 *R/convert_hazards_to_ex.R
+a0e008509f279523aca5fafd68f4481f *R/convert_hazards_to_ex.R
 4d6f9cbd138ae345fc9ed40150c737e9 *R/diagnostic_plot.R
 5110d31a5833a921c104bea2289b22f4 *R/diagnostic_plot_hazard.R
 ba089f0a6a01967f1103b8d1d3036d73 *R/get.par.start.R
@@ -13,10 +13,9 @@ eed17aa095dc5ad42739075ea0c97fc8 *R/hazard_ratio_to_le.R
 ce7fc20e8a24d4c32bc0bb4d35ad08d1 *R/helpers.R
 106d26811eb96d753b32c189794b4081 *R/negLL_function.R
 883634123924673a1e6e9c8f401a0322 *R/numident_demo.R
-8e1d262d4c49efe598e71101ca5e1fb7 *R/pipe.R
 079622a7b6db6e13b85e93dba7200641 *R/sim_data.R
 b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
-ae4f63b410dd0a26e730106e76193f01 *build/partial.rdb
+895877df784610aaef0e301e5394ceb7 *build/partial.rdb
 0de7fcf28ddc7268f89b77f4e589ea3d *build/vignette.rds
 7a98e65cc39f46a64232565a43545b7d *data/bunmd_demo.rda
 d544e901e26f08e8fd86261d30bd34a6 *data/datalist
@@ -24,10 +23,10 @@ bcb23f80188257f89d84ee955e3d89e1 *data/numident_demo.rda
 6b609be6f8b5839ddb3898e848d9ec34 *data/sim_data.rda
 c426440b5ec8b053a01c788b344b6965 *inst/doc/gompertztrunc_vignette.R
 7988c106f3e985c13fcd81c3d0aee316 *inst/doc/gompertztrunc_vignette.Rmd
-b9d7e7ef2681b4a5e809b35a63f97982 *inst/doc/gompertztrunc_vignette.html
+978a0841eea132e292ae1c040e74080e *inst/doc/gompertztrunc_vignette.html
 faf51823913625f088bc2a7ed8c741f1 *man/bM2a.Rd
 fb9370706fefa48f89a76fdea5fe26d7 *man/bunmd_demo.Rd
-96b8759310a9d95d434df70b5ebb4df0 *man/convert_hazards_to_ex.Rd
+c123d9599a3cb9686c6761c2e34a8d94 *man/convert_hazards_to_ex.Rd
 72cc2ee3f3b5f681e8e0b51a77f6b9b5 *man/diagnostic_plot.Rd
 e1b2829b98a6911db08cd1bd91914040 *man/diagnostic_plot_hazard.Rd
 7723f89518bda6a9ca29688414b4c5a4 *man/get.par.start.Rd
@@ -37,6 +36,6 @@ b950152f55d78593df8a151959bed60f *man/gompertztrunc_simu.Rd
 bad1ea2310938f7ba565f951740c0ce8 *man/mll.gomp.multi.cohort.cov.Rd
 7cdfc5c0a05d099c308c1f1527f3193c *man/negLL_function.Rd
 25e2564970ac44d5d811334bcec5208c *man/numident_demo.Rd
-c29f0138d7945f306df61d874b4659db *man/pipe.Rd
+8f4aad003a999fae004ba9361f9a99d6 *man/pipe.Rd
 a5ca6b41c5af77316673f9aa16685d04 *man/sim_data.Rd
 7988c106f3e985c13fcd81c3d0aee316 *vignettes/gompertztrunc_vignette.Rmd
