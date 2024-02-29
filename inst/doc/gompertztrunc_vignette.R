@@ -1,4 +1,4 @@
-## ---- warning=FALSE, results='hide',message=FALSE-----------------------------
+## ----warning=FALSE, results='hide',message=FALSE------------------------------
 ## library packages
 library(gompertztrunc)         ## calculate mortality differentials under double-truncation  
 library(tidyverse)             ## data manipulation and visualization  
@@ -65,7 +65,7 @@ head(bunmd_demo)
 bunmd_demo %>%
   count(bpl_string)
 
-## ---- fig.width = 6, fig.height = 4-------------------------------------------
+## ----fig.width = 6, fig.height = 4--------------------------------------------
 ## distribution of deaths?
 ggplot(data = bunmd_demo) + 
   geom_histogram(aes(x = death_age),
@@ -118,7 +118,7 @@ mle_results <- mle_results %>%
 ## look at results 
 mle_results
 
-## ---- fig.width = 7.2, fig.height = 5-----------------------------------------
+## ----fig.width = 7.2, fig.height = 5------------------------------------------
 ## combine results from both models 
 bpl_results <- lm_bpl_tidy %>%
   bind_rows(mle_results)
@@ -163,11 +163,11 @@ bpl_results_1915_cohort <- gompertz_mle(formula = death_age ~ bpl_string,
 ## look at results
 bpl_results_1915_cohort$results
 
-## -----------------------------------------------------------------------------
+## ----fig.width = 7, fig.height = 3.5------------------------------------------
 diagnostic_plot(object = bpl_results_1915_cohort, data = bunmd_1915_cohort,
                 covar = "bpl_string", death_var = "death_age")
 
-## -----------------------------------------------------------------------------
+## ----fig.width = 7, fig.height = 4--------------------------------------------
 diagnostic_plot_hazard(object = bpl_results_1915_cohort, data = bunmd_1915_cohort,
                 covar = "bpl_string", death_var = "death_age", xlim=c(65,95))
 
@@ -226,7 +226,7 @@ mle_results_educ <- convert_hazards_to_ex(education_gradient$results, use_model_
 ## look at results
 mle_results_educ
 
-## ---- fig.width = 7.2, fig.height = 5-----------------------------------------
+## ----fig.width = 7.2, fig.height = 5------------------------------------------
 ## run linear model 
 lm_bpl <- lm(death_age ~ educ_yrs + as.factor(byear), data = data_numident_men, weights = weight)
 
